@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-image: none;
+}
